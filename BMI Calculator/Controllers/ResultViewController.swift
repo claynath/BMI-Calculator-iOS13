@@ -16,13 +16,12 @@ class ResultViewController: UIViewController {
 
     @IBOutlet weak var bmiLabel: UILabel!
     @IBOutlet weak var adviceLabel: UILabel!
-    @IBOutlet weak var resultViewBackground: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         bmiLabel.text = bmiValue
         adviceLabel.text = advice
-        resultViewBackground.backgroundColor = color
+        view.backgroundColor = color
         // Do any additional setup after loading the view.
     }
     
